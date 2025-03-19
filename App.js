@@ -138,7 +138,7 @@ export default function App() {
         <Text style={styles.score}>Score: {score}</Text>
       </View>
       <View style={styles.levelContainer}>
-        <Text style={styles.level}>Level: {getLevel()}</Text> {/* Niveau affiché ici */}
+        <Text style={styles.level}>Level: {getLevel()}</Text> 
       </View>
       <View style={styles.gridContainer}>
         <FlatList
@@ -196,7 +196,7 @@ const styles = StyleSheet.create({
     color: 'green',
   },
   levelContainer: {
-    marginBottom: 20, // Ajout d'un espacement avant le bouton de pause
+    marginBottom: 20,
   },
   level: {
     fontSize: 24,
